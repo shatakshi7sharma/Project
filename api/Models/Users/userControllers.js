@@ -4,9 +4,7 @@ const bcrypt = require('bcryptjs')
 const UserControllerHelper = require('./UserControllerHelper')
 
 var signup = async (req, h) => {
-    console.log("req.payload---->>>", req.payload)
     const { firstName, lastName, email, password } = req.payload;
-    console.log("fiii", firstName, "lasttt", lastName, "email", email, "pass", password)
 
     try {
         const user = new User({ firstName, lastName, email, password });
