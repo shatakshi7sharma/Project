@@ -1,0 +1,22 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@hapi/cookie": "^11.0.2",
+    "@hapi/hapi": "^20.2.2",
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "check-password-strength": "^1.0.15",
+    "dotenv": "^8.2.0",
+    "hapi-cors": "^1.0.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.1"
+  }
+}
